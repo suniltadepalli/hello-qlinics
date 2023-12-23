@@ -13,7 +13,8 @@
       "settings": {},
       "extensions": [
         "ms-python.python",
-        "ms-python.vscode-pylance"
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
       ]
     }
   },
@@ -25,9 +26,14 @@
     "8501": {
       "label": "Application",
       "onAutoForward": "openPreview"
+    },
+    "8888":{
+      "label": "JupyterLab",
+      "onAutoForward": "openPreview"
     }
   },
   "forwardPorts": [
-    8501
+    8501,
+    8888
   ]
 }
